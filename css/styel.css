@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 150px;
+    background-color: #0a0d1cd4;
+}
+header a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo{
+    color: rgb(88, 243, 103);
+    font-size: 35px;
+    font-weight: 700;
+}
+.navegation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegation a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+.icon i{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .6s;
+}
+.icon a{
+    font-size: 30px;
+    color: rgb(88, 243, 103);
+    padding-left: 10px;
+}
+.icon i:hover{
+    color: rgba(107, 28, 176, 0.952);
+    transform: scale(1.2);
+    
+}
+.navegation a:hover{
+     transform:translatey(-5px);
+    color: rgb(79, 245, 95);
+    font-weight: 500;
+}
+.main{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(#020305a9,#0e2445cb);
+}
+.info{
+    width: 40%;
+}
+.info h2{
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+.info button{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    border: none;
+}
+.info button:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+    cursor: pointer;
+    background-color:rgb(104, 31, 172);
+    color: whitesmoke;
+}
+.img-main{
+    width: 40%;
+    height: 60%;
+    background-image: url(../images/33.png);
+    background-size: cover;
+}
+.contaner1{
+    width: 80%;
+    min-height: 90vh;
+    margin: auto;
+}
+.div-titel1{
+    text-align: center;
+}
+.contaner1 h1{
+    font-size: 40px;
+    color: rgb(35, 31, 31);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.line1{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(195, 109, 109);
+    border-radius: 60%;
+    margin: auto;
+}
+.line1:hover{
+    transform: scale(1.6);
+    transition: 0.6s;
+}
+.parent1{
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    align-content: space-evenly;
+}
+.img-con1{
+   width: 70%;
+   height: 60%; 
+   margin-bottom: 25px;
+}
+
+.hov{
+    width: 100%;
+}
+.parent1 h2{
+    color: rgba(0, 0, 0, 0.471);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.parent1 h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.parent1 i{
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 20, 20);
+    margin-left:8px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.1s;
+}
+.hov:hover i{
+        visibility: visible;
+        opacity: 1;
+}
+.parent2{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-content: space-evenly; 
+}
+.over1{
+    background-color: rgba(229, 225, 219, 0.522);
+}
+.over1 i{
+  color: rgb(97, 27, 27); 
+  font-size: 35px;
+  padding: 10px;
+}
+.over1 h2{
+    color: rgb(73, 9, 9);
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+.over1 p{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.8;
+}
+.last-icon{
+    position: absolute;
+    color: rgb(66, 57, 45);
+    font-size: 35px;
+    padding: 10px;
+}
+
+.info2{
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.info3{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.over2{
+    background-image: url(../images/ju2.jpg);
+    background-size: cover;
+}
+.over3{
+    background-image: url(../images/bastian-scham-vKl5b0sQIbE-unsplash.jpg);
+    background-size: cover;
+}
+.discount h3{
+    color: #fff;
+    font-size: 20;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.discount h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 10px;
+}
+.discount:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.parent3{
+    width: 100%;
+    height: 18vh;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-content: space-evenly; 
+    text-align: center;
+}
+.serves{
+    perspective: 600;
+    
+    padding: 5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.371);
+}
+.serves i{
+    color: rgba(165, 42, 42, 0.532);
+    font-size: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1.2s;
+}
+.serves h2{
+    color: rgba(30, 29, 29, 0.855);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+}
+.serves h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.serves:hover i{
+    transform: rotatey(360deg);
+    color: rgba(0, 0, 0, 0.621);
+}
+.contaner2{
+    width: 80%;
+    margin: auto;
+}
+.contaner2 h1{
+    color: #1d2b79;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+}
+.all-a ul{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-content: space-between; 
+    text-align: center;
+}
+.contaner2 ul a{
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.parent-product1{
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    align-content: space-evenly; 
+}
+.img-item{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    background-color: #ebe2e2ef;
+}
+.info-item{
+    padding-top: 5px;
+}
+.parent-product1 i{
+    font-size: 17px;
+    color: rgba(225, 255, 0, 0.967);
+}
+.info-item a i{
+     color: #24252cab;
+}
+.info-item a i:hover{
+    color: rgba(225, 255, 0, 0.967);
+}
+.parent-product1 h2{
+    color: rgba(0, 0, 0, 0.648);
+    font-size: 20px;
+    perspective: 600;
+}
+.info-item h3{
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.item1{
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.all-item{
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.89);
+    width:100%;
+    height: 80%;
+    padding: 5px;
+    top: 0;
+    left: 0; 
+    visibility: hidden;
+    transition: 1.5s;
+    opacity: 0;
+}
+.overlay ul{
+    position: absolute;
+    list-style: none;
+    top: 50%;
+    left: 25%;
+}
+.overlay a i{
+    color: #ecefff;
+    background-color: rgb(41, 10, 10);
+    font-size: 30px;
+    padding: 5px;
+}
+.all-item:hover .overlay{
+    visibility: visible;
+    opacity: 0.9;
+}
+.all-item:hover .img-item{
+    visibility: hidden;
+}
+.item2{
+    position: relative;
+}
+.item3{
+    position: relative;
+}
+.parent-product2{
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    align-content: space-evenly; 
+}
+.parent-product2 i{
+    font-size: 17px;
+    color: rgba(225, 255, 0, 0.967);
+}
+.info-item a i{
+     color: #24252cab;
+}
+.info-item a i:hover{
+    color: rgba(225, 255, 0, 0.967);
+}
+.parent-product2 h2{
+    color: rgba(0, 0, 0, 0.648);
+    font-size: 20px;
+    perspective: 600;
+}
